@@ -1,0 +1,12 @@
+appId: com.atron.app
+productName: Atron
+copyright: Copyright © 2023 Faiz Faidurrahman
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
