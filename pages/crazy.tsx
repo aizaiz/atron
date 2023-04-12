@@ -1,10 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import React from 'react';
-import Link from 'next/link';
 
 
 const Home: NextPage = () => {
@@ -17,14 +17,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Link href={'/crazy'}>
+        <Link href={'/'}>
           <a>
             <h1 className={styles.title}>
-              Welcome to Next.js!!!
-            </h1> 
+              Welcome to Crazy!!!
+            </h1>
           </a>
         </Link>
-       
 
         <p className={styles.description}>
           Get started by editing{' '}
